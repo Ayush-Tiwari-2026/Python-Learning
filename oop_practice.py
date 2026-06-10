@@ -106,16 +106,23 @@
 # a1.withdraw(2000)
 
 # Q6
-class aircraft:
-    def __init__(self,name,speed,range):
-        self.name=name
-        self.speed=speed
-        self.range=range
-    def __str__(self):
-        return f"name={self.name},speed={self.speed},range={self.range}"
+# class aircraft:
+#     def __init__(self,name,speed,range):
+#         self.name=name
+#         self.speed=speed
+#         self.range=range
+#     def __str__(self):
+#         return f"name={self.name},speed={self.speed},range={self.range}"
     
-A1=[["Rafaele",1912,3700],["Tejas",2205,3000]]
-for i in A1:
+# A1=[["Rafaele",1912,3700],["Tejas",2205,3000]]
+# for i in A1:
     
-    A2=aircraft(*i)
-    print(A2)
+#     A2=aircraft(*i)
+#     print(A2)
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+p1 = Person("Emil", 36)
+print(p1)
